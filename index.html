@@ -68,19 +68,32 @@
             type="button"
           ></button>
           <h3 class="popup__title">Editar perfil</h3>
-          <form class="popup__form" id="edit-profile-form">
+          <form class="popup__form" id="edit-profile-form" novalidate>
             <input
               class="popup__input popup__input_type_name"
+              id="profile-name-input"
               name="name"
               placeholder="Nombre"
               type="text"
+              required
+              minlength="2"
+              maxlength="40"
             />
+            <span class="popup__error" id="profile-name-input-error"></span>
             <input
               class="popup__input popup__input_type_description"
+              id="profile-description-input"
               name="description"
               placeholder="Acerca de mí"
               type="text"
+              required
+              minlength="2"
+              maxlength="200"
             />
+            <span
+              class="popup__error"
+              id="profile-description-input-error"
+            ></span>
             <button class="button popup__button" type="submit">Guardar</button>
           </form>
         </div>
@@ -93,21 +106,29 @@
             type="button"
           ></button>
           <h3 class="popup__title">Nuevo lugar</h3>
-          <form class="popup__form" id="new-card-form">
+          <form class="popup__form" id="new-card-form" novalidate>
             <input
               class="popup__input popup__input_type_card-name"
+              id="card-title-input"
               name="place-name"
               placeholder="Título"
               required
+              minlength="2"
+              maxlength="30"
               type="text"
             />
+            <span class="popup__error" id="card-title-input-error"></span>
+
             <input
               class="popup__input popup__input_type_url"
+              id="card-url-input"
               name="link"
               placeholder="Enlace a la imagen"
               required
               type="url"
             />
+            <span class="popup__error" id="card-url-input-error"></span>
+
             <button class="button popup__button" type="submit">Crear</button>
           </form>
         </div>
