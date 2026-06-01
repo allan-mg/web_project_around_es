@@ -46,6 +46,33 @@
   margin-right: 29px;
 }
 
+.profile__image-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.profile__image-edit-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("../images/edit-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 26px 26px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.profile__image-container:hover .profile__image-edit-button {
+  opacity: 1;
+}
+
 .profile__add-button {
   width: 150px;
   height: 50px;
