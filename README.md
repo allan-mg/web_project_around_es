@@ -1,6 +1,6 @@
-# 1. web_project_around_es
+# web_project_around_es
 
-## Descripción corta para GitHub
+## Descripción
 
 Aplicación web interactiva desarrollada con JavaScript, enfocada en manipulación del DOM, formularios, tarjetas dinámicas, likes y consumo de API.
 
