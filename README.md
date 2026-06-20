@@ -41,5 +41,5 @@ También aprendí a organizar mejor el código usando clases y módulos, separan
 
 ## Enlaces
 
-* Demo en vivo: PENDIENTE
+* Demo en vivo: https://allan-mg.github.io/web_project_around_es/
 * Repositorio: https://github.com/allan-mg/web_project_around_es
