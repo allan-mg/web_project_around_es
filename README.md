@@ -10,28 +10,28 @@ Este proyecto representa una etapa importante en mi aprendizaje, ya que combina 
 
 ## Funcionalidades principales
 
-* Edición de perfil de usuario.
-* Agregado de nuevas tarjetas.
-* Visualización ampliada de imágenes en popup.
-* Funcionalidad de “me gusta”.
-* Eliminación de tarjetas.
-* Validación de formularios.
-* Manipulación dinámica del DOM.
-* Organización del código con clases y módulos.
-* Integración con API.
+- Edición de perfil de usuario.
+- Agregado de nuevas tarjetas.
+- Visualización ampliada de imágenes en popup.
+- Funcionalidad de “me gusta”.
+- Eliminación de tarjetas.
+- Validación de formularios.
+- Manipulación dinámica del DOM.
+- Organización del código con clases y módulos.
+- Integración con API.
 
 ## Tecnologías utilizadas
 
-* HTML5
-* CSS3
-* JavaScript
-* DOM
-* API REST
-* Programación orientada a objetos
-* Módulos de JavaScript
-* Validación de formularios
-* Git y GitHub
-* Metodología BEM
+- HTML5
+- CSS3
+- JavaScript
+- DOM
+- API REST
+- Programación orientada a objetos
+- Módulos de JavaScript
+- Validación de formularios
+- Git y GitHub
+- Metodología BEM
 
 ## Aprendizaje
 
@@ -39,7 +39,11 @@ Con este proyecto reforcé mis habilidades en JavaScript, especialmente en manip
 
 También aprendí a organizar mejor el código usando clases y módulos, separando responsabilidades para hacer el proyecto más claro, escalable y mantenible.
 
+## Demo de funcionamiento
+
+![Demo del proyecto](./images/demo.gif)
+
 ## Enlaces
 
-* Demo en vivo: PENDIENTE
-* Repositorio: https://github.com/allan-mg/web_project_around_es
+- Demo en vivo: PENDIENTE
+- Repositorio: https://github.com/allan-mg/web_project_around_es
